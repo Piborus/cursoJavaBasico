@@ -5,5 +5,5 @@
  * @author haroldomorais
  *
  */
-module cursojavabasico {
+module cursoJavaBasico {
 }
