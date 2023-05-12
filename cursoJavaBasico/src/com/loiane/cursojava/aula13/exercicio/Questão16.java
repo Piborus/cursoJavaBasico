@@ -17,9 +17,10 @@ public class Questão16 {
 		double areaPintada = sc.nextDouble();
 		
 		double quantidadeTinta = (areaPintada * areaPintada) / Math.pow(3, 2);
-		double preçoTotal = (80 * quantidadeTinta) /volumeTinta;
+		double precoTotal = (80 * quantidadeTinta) /volumeTinta;
+		precoTotal = Math.round(precoTotal * 100)/100;
 		
-		System.out.println("Você gastou " + quantidadeTinta + "L" + " , no valor total de R$ " + preçoTotal);	
+		System.out.println("Você gastou " + quantidadeTinta + "L" + " , no valor total de R$ " + precoTotal);	
 	}
 
 }
