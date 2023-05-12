@@ -32,13 +32,12 @@ public class Questao15 {
 		double sindicato = totalSalario * 5 / 100;
 		System.out.println("Você perdeu R$ " + sindicato + " para o sindicato.");
 
-		double salarioLiquido = ir + inss + sindicato;
-		salarioLiquido = Math.round(salarioLiquido * 100) / 100;
-		
+		double tributos = ir + inss + sindicato;
+		tributos = Math.round(tributos * 100) / 100;
 
-		System.out.println("PARABENS O GOVERNO LEVOU R$ " + salarioLiquido);
+		System.out.println("PARABENS O GOVERNO LEVOU R$ " + tributos);
 
-		double restoSalario = totalSalario - salarioLiquido;
+		double restoSalario = totalSalario - tributos;
 		System.out.println("Restou apenas R$ " + restoSalario + " do seu salario.");
 
 	}

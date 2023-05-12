@@ -12,9 +12,9 @@ public class Questão6 {
 		Scanner sc = new Scanner (System.in);
 		double raioC = sc.nextDouble();
 		
-		double pi = 3.14;
 		
-		double areaC = pi * (raioC * raioC);
+		double areaC = Math.PI *(Math.pow(raioC, 2));
+		areaC = Math.round(areaC * 100)/100;
 		
 		System.out.println("A área do circulo é: " + areaC);
 		
