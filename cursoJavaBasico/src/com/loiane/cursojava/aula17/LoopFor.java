@@ -31,8 +31,8 @@ public class LoopFor {
 		int soma = 0;
 		for (int i = 1; i < 10; soma += i++)
 			System.out.println("O valor da soma: " + soma);
-		
-		for(int i = 0; i < 5; i++) 
+
+		for (int i = 0; i < 5; i++)
 			System.out.println("O valor de i: " + i);
 
 	}
