@@ -101,6 +101,7 @@ public class Questao25 {
 		String continuar = sc.next();
 		if (continuar.equalsIgnoreCase("s")) {
 			main(null);
+
 		}
 	}
 }
