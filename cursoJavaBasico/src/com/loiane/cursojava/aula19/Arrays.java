@@ -26,14 +26,18 @@ public class Arrays {
 		
 		System.out.println("O valor da temperatura do dia 3 é: " + temperaturas[2]);
 		
+		//Tamanho do Array (Quantas posições na memoria posso coloca nesse Array).
 		System.out.println("O tamanho da array: " + temperaturas.length);
 		
+		//O valores do Array(O endereço de memoria em que esse Array está apontando).
 		System.out.println("O valores do array " + temperaturas);
 		
+		//Todos os valores do Array.
 		for(int i = 0; i < temperaturas.length; i++) {
 			System.out.println("O valor da temperatura dia " + (i+1) + " é " + temperaturas[i]);
 		}
 		
+		//foreach.
 		for(double temp : temperaturas) {
 			System.out.println("O valor da temperatura dia " + (temp+1) + " é " + temp);
 		}
