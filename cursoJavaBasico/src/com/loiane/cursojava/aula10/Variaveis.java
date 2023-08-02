@@ -11,8 +11,8 @@ public class Variaveis {
 		String ano2014;
 		
 		//Aceito, mas não utilizado
-		int _idade;
-		int &idade;
+		//int _idade;
+		//int &idade;
 		
 		//não é convenção JAVA
 		String nome_do_meu_cachorro;

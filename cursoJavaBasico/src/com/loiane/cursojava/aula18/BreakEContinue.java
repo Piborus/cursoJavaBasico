@@ -28,13 +28,13 @@ public class BreakEContinue {
 		 * } System.out.println("rotulo3"); } System.out.println("rotulo2"); }
 		 * System.out.println("rotulo1"); } System.out.println(i); }
 		 */
-		Scanner sc = new Scanner(System.in);
+		Scanner sc1 = new Scanner(System.in);
 
 		System.out.println("Entre com um numero.");
-		int num = sc.nextInt();
+		num = sc.nextInt();
 
 		System.out.println("Entre com o maximo.");
-		int max = sc.nextInt();
+		max = sc1.nextInt();
 
 		for (int i = num; i < max; i++) {
 			if (i % 7 == 0) {
