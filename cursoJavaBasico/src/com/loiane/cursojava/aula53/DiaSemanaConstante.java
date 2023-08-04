@@ -8,7 +8,7 @@ public class DiaSemanaConstante {
     public static final int QUARTA_FEIRA =  4;
     public static final int QUINTA_FEIRA =  5;
     public static final int SEXTA_FEIRA =  6;
-    public static final int SABADO =  7;
+    public static final int SABADO = 7;
 
 
 

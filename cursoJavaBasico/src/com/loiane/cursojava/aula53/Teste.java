@@ -2,7 +2,10 @@ package com.loiane.cursojava.aula53;
 
 public class Teste {
     public static void main(String[] args) {
+        usandoConstantes();
 
+        System.out.println();
+        usandoEnum();
     }
 
     private static void usandoConstantes() {
@@ -23,10 +26,6 @@ public class Teste {
         imprimeDiaSemana(QUINTA);
         imprimeDiaSemana(SEXTA);
         imprimeDiaSemana(SABADO);
-
-
-
-
 
     }
 
@@ -57,4 +56,53 @@ public class Teste {
 
     }
 
+    private static void usandoEnum() {
+        DiaSemana domingo = DiaSemana.DOMINGO;
+        DiaSemana segunda = DiaSemana.SEGUNDA_FEIRA;
+        DiaSemana terca = DiaSemana.TERCA_FEIRA;
+        DiaSemana quarta = DiaSemana.QUARTA_FEIRA;
+        DiaSemana quinta = DiaSemana.QUINTA_FEIRA;
+        DiaSemana sexta = DiaSemana.SEXTA_FEIRA;
+        DiaSemana sabado = DiaSemana.SABADO;
+
+        System.out.println("Teste utilizado enum Java");
+
+        imprimeDiaSemana(domingo);
+        imprimeDiaSemana(segunda);
+        imprimeDiaSemana(terca);
+        imprimeDiaSemana(quarta);
+        imprimeDiaSemana(quinta);
+        imprimeDiaSemana(sexta);
+        imprimeDiaSemana(sabado);
+
+
+    }
+
+    private static void imprimeDiaSemana(DiaSemana dia) {
+        switch (dia) {
+            case DOMINGO:
+                System.out.println("Domingo");
+                break;
+            case SEGUNDA_FEIRA:
+                System.out.println("Segunda-feira");
+                break;
+            case TERCA_FEIRA:
+                System.out.println("Terça-feira");
+                break;
+            case QUARTA_FEIRA:
+                System.out.println("Quarta-feira");
+                break;
+            case QUINTA_FEIRA:
+                System.out.println("Quinta-feira");
+                break;
+            case SEXTA_FEIRA:
+                System.out.println("Sexta-feira");
+                break;
+            case SABADO:
+                System.out.println("Sabado");
+                break;
+        }
+
+
+    }
 }

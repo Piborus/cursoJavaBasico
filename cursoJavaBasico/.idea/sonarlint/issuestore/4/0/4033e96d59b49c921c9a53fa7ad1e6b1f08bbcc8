@@ -1,0 +1,36 @@
+
+r	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶øû¥şÿÿÿÿ8ÕÏÓÜ›1
+s	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ì“ùÿÿÿÿ8ÖÏÓÜ›1
+s	java:S117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¾Ú÷ùÿÿÿÿ8×ÏÓÜ›1
+€
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "ranNum".(ç¨Ùüÿÿÿÿ8ÚÏÓÜ›1
+d
+java:S2184"BCast one of the operands of this division operation to a "double".(Ì é³ıÿÿÿÿ8ìÏÓÜ›1
+K
+java:S2140")Use "java.util.Random.nextInt()" instead.(ç¨Ùüÿÿÿÿ8ÌéÓÜ›1
+H
+java:S2185"&Remove this silly call to "Math.floor"(Ì é³ıÿÿÿÿ8ÑéÓÜ›1
+X
+java:S1854-";Remove this useless assignment to local variable "retorno".(éĞ–ò8ÓéÓÜ›1
+X	java:S125A"<This block of commented-out lines of code should be removed.(¼×Ûú8‡êÓÜ›1
+X	java:S125B"<This block of commented-out lines of code should be removed.(½¢è†8‡êÓÜ›1
+X	java:S125C"<This block of commented-out lines of code should be removed.(Æòïë8ˆêÓÜ›1
+X	java:S125D"<This block of commented-out lines of code should be removed.(êÎ¾¡8ˆêÓÜ›1
+E
+java:S1659e"#Declare "dig11" on a separate line.(îùıøÿÿÿÿ8–êÓÜ›1
+[
+java:S1659f">Declare "i" and all following declarations on a separate line.(¸„áë8£êÓÜ›1
+H
+java:S1905q"&Remove this unnecessary cast to "int".(ÚËÍ¶ıÿÿÿÿ8µêÓÜ›1
+I
+java:S1905€"&Remove this unnecessary cast to "int".(ÚËÍ¶ıÿÿÿÿ8¸êÓÜ›1
+u
+java:S3776•"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(³ì“ùÿÿÿÿ8ÇêÓÜ›1
+A
+java:S1659"#Declare "dig14" on a separate line.(Æî®ş8ÊêÓÜ›1
+\
+java:S1659">Declare "i" and all following declarations on a separate line.(¸„áë8ÊêÓÜ›1
+I
+java:S1905©"&Remove this unnecessary cast to "int".(ì¤¤»ûÿÿÿÿ8ÒêÓÜ›1
+I
+java:S1905º"&Remove this unnecessary cast to "int".(ì¤¤»ûÿÿÿÿ8ÕêÓÜ›1

@@ -1,0 +1,10 @@
+
+1
+java:S3626*"Remove this redundant jump.(ÉŠ©ƒ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÿµÁ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ»œ°úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ðà «ÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(‘–¬âùÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ƒÿµÁ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ˆ»œ°úÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(Ðà «ÿÿÿÿÿ
